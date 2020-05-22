@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Кэшированная страница{% endblock %}
+
+
+{% block main_content %}
+  <h1>Кешированное время:</h1>
+  <h2>
+    {{ cached_time }}
+  </h2>
+{% endblock %}
